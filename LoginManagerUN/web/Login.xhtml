@@ -22,9 +22,9 @@
             <ice:form id="form"> 
                 <h1>Por favor ingrese sus datos para ingresar al sistema</h1>
                 <label>Usuario</label>
-                <ice:inputText label="Usuario" > </ice:inputText>
+                <ice:inputText label="Usuario" value="#{LoginBean.username}"> </ice:inputText>
                 <label>Contraseña</label>
-                <ice:inputSecret label="Contraseña"> </ice:inputSecret>
+                <ice:inputSecret label="Contraseña" value="#{LoginBean.password}"> </ice:inputSecret>
                 <h:commandButton value="Ingresar" action="#{LoginBean.doLogin}"></h:commandButton>
             </ice:form>
         </div>

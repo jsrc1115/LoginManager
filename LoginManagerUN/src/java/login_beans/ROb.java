@@ -11,9 +11,9 @@ package login_beans;
 public class ROb {
     //Return Object
     
-    boolean success;
-    String err_message;
-    Object data;
+    private boolean success;
+    private String err_message;
+    private Object data;
 
     public boolean isSuccess() {
         return success;
